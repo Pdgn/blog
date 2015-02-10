@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<p>Welcome to the PdgnCo community blog! We're an IRC community focused on education and autonomy
+   with a great deal of passion for Computer Science. You can find more about our network on its
+   <a href="http://pdgn.co">main site</a>, or you can just start reading. You should be able to get
+   to know a lot of the regular members of Pdgn by reading their writing here. Topics can range from
+   highly technical to highly personal to highly humorous and anything in between.</p>
+<div class="post-list">
+  {% for post in site.posts %}
+    <div class="post">
+      <div class="post-title pull-left">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </div>
+      <div class="post-date pull-right">{{ post.date | date: "%b %-d, %Y" }}</div>
+      <div class="clearfix"></div> 
+    {% if post.excerpt %}
+        <div class="post-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</div>
+    {% endif %}
+    </div>    
+  {% endfor %}
 </div>
