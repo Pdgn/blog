@@ -11,7 +11,7 @@ layout: default
   {% for post in site.posts %}
     <div class="post">
       <div class="post-title pull-left">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </div>
       <div class="post-meta pull-right">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} &bull; {{ page.author }}{% endif %}</div>
       <div class="clearfix"></div> 
