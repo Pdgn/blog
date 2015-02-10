@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+author: "Jekyll"
+author_url: "#"
 date:   2015-02-09 22:56:15
 categories: jekyll update
 ---

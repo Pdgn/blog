@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post-info">
     <div class="post-title pull-left">{{ page.title }}</div>
-    <div class="post-meta pull-right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} &bull; {{ page.author }}{% endif %}{% if page.meta %} &bull; {{ page.meta }}{% endif %}</div>
+    <div class="post-meta pull-right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} &bull; {% if page.author_url %}<a href="{{ page.author_url }}">{% endif %}{{ page.author }}{% if page.author_url %}</a>{% endif %}{% endif %}</div>
     <div class="clearfix"></div>
 </div>
 {{ content }}
