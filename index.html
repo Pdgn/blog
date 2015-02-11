@@ -16,7 +16,7 @@ layout: default
       <div class="post-meta pull-right">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} &bull; {% if post.author_url %}<a href="{{ post.author_url }}">{% endif %}{{ post.author }}{% if post.author_url %}</a>{% endif %}{% endif %}</div>
       <div class="clearfix"></div> 
     {% if post.excerpt %}
-        <div class="post-desc">{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</div>
+        <div class="post-desc">{{ post.excerpt | strip_html | truncate: 200 }}</div>
     {% endif %}
     </div>    
   {% endfor %}
