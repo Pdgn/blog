@@ -16,6 +16,10 @@ a.title, a.title:hover {
 
 .content {
     text-align: justify;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
     margin-bottom: 1em
 }
 
