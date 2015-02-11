@@ -47,8 +47,17 @@ a.title, a.title:hover {
     margin-top: 2em;
 }
 
-.post-info .post-title, .post-info .post-meta {
-    font-size: 1.2em;
+.post-info {
+    margin-bottom: -0.25em;
+}
+
+.post-info .post-title {
+    font-size: 2em;   
+} 
+
+.post-info .post-meta {
+    font-size: 1em;
+    line-height: 3.5em;
 }
 
 .wet-asphalt, .wet-asphalt a, .wet-asphalt a:visited {
@@ -76,6 +85,10 @@ p {
 @media (min-width: 400px) {
     p {
         line-height: 1.5em;
+    }
+
+    .content {
+        padding: 0 1em;
     }
 }
 
