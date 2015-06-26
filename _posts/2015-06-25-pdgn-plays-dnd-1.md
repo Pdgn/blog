@@ -3,7 +3,7 @@ layout: post
 title:  "Pdgn plays D&D: Jackal Dating Sim"
 author: "Aaron Weiss"
 author_url: "http://aaronweiss.us/"
-date:   2015-02-11 13:56:00
+date:   2015-06-25 23:39:40
 categories: general
 ---
 
