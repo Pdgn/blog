@@ -122,28 +122,28 @@ fact, Battle Boar once again springs to action trying to charm the jackals into 
 ultimately unsuccessful. Nevertheless, with their powerful magic, our party is quickly able to deal
 with one of the creatures, killing it almost instantly. At this point, the two remaining jackals
 transform into humanoid jackal hybrids, and our party realizes that they are in fact jackalweres.
-The jackalwares manage to deal some serious damage to our rogue, Raz, but once again, Battle Boar
-comes to the rescue with his healing. With more magic, our party knocks a second jackalware
+The jackalweres manage to deal some serious damage to our rogue, Raz, but once again, Battle Boar
+comes to the rescue with his healing. With more magic, our party knocks a second jackalwere
 unconscious. Then, feeling diplomatic and disinterested in combat, Vanswaxle telepathically offers
-for the jackalware to stand down, promising to have Battle Boar heal his unconscious companion.
-With little choice, the jackalware takes the deal, and stands down. Our party makes good on the
-deal, and revitalizes the other jackalware. Feeling wary of the jackalwares because of their
+for the jackalwere to stand down, promising to have Battle Boar heal his unconscious companion.
+With little choice, the jackalwere takes the deal, and stands down. Our party makes good on the
+deal, and revitalizes the other jackalwere. Feeling wary of the jackalweres because of their
 reputation as a species, our party tries to determine if they're up to something. However, they
-decide as a group that the jackalwares are likely trustworthy.
+decide as a group that the jackalweres are likely trustworthy.
 
 Even still, Lucifirius and Vanswaxle are particularly touchy about the cargo in transit. So, they
-decide to pretend to sleep and to keep watch over the jackalwares. Meanwhile, the rest of the party
-heads back to bed. The weaker jackalware then pulls some meat from his pants pocket and begins to
-cook it. Noticing this, Vanswaxle disguises his voice and speaks telepathically to the jackalware
+decide to pretend to sleep and to keep watch over the jackalweres. Meanwhile, the rest of the party
+heads back to bed. The weaker jackalwere then pulls some meat from his pants pocket and begins to
+cook it. Noticing this, Vanswaxle disguises his voice and speaks telepathically to the jackalwere
 asking if he can share some meat, and ultimately, trying to seduce him. Initially, his attempts to
-seduce him fail, but with enough persistence, he gets through. The jackalware leaves the camp,
+seduce him fail, but with enough persistence, he gets through. The jackalwere leaves the camp,
 shapeshifts into a human, and heads back to Karri to meet up with his telepathic seducer.
-Distracted by this endeavour, Vanswaxle fails to notice the other jackalware sneaking up on him,
-and before he has the chance to react, the jackalware attacks him lying down, critically injuring
+Distracted by this endeavour, Vanswaxle fails to notice the other jackalwere sneaking up on him,
+and before he has the chance to react, the jackalwere attacks him lying down, critically injuring
 him. While much of the party springs awake, Battle Boar remains asleep and is thus unable to offer
-healing to the weakened Vanswaxle. Vanswaxle uses his magic to try to escape the jackalware and
-give his party members a chance to kill him, but the jackalware is much faster. Ultimately, the
-jackalware is able to knock Vanswaxle unconscious before the skilled shot of Raz's bow is able to
+healing to the weakened Vanswaxle. Vanswaxle uses his magic to try to escape the jackalwere and
+give his party members a chance to kill him, but the jackalwere is much faster. Ultimately, the
+jackalwere is able to knock Vanswaxle unconscious before the skilled shot of Raz's bow is able to
 kill him. With one jackelware gone and the other two dead, Ez-Ra uses his medical kit to stabilize
 Vanswaxle, and the party is able to collect itself once more.
 
