@@ -131,7 +131,7 @@ deal, and revitalizes the other jackalware. Feeling wary of the jackalwares beca
 reputation as a species, our party tries to determine if they're up to something. However, they
 decide as a group that the jackalwares are likely trustworthy.
 
-Even still, Lucifirus and Vanswaxle are particularly touchy about the cargo in transit. So, they
+Even still, Lucifirius and Vanswaxle are particularly touchy about the cargo in transit. So, they
 decide to pretend to sleep and to keep watch over the jackalwares. Meanwhile, the rest of the party
 heads back to bed. The weaker jackalware then pulls some meat from his pants pocket and begins to
 cook it. Noticing this, Vanswaxle disguises his voice and speaks telepathically to the jackalware
