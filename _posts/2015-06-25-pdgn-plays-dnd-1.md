@@ -144,7 +144,7 @@ him. While much of the party springs awake, Battle Boar remains asleep and is th
 healing to the weakened Vanswaxle. Vanswaxle uses his magic to try to escape the jackalwere and
 give his party members a chance to kill him, but the jackalwere is much faster. Ultimately, the
 jackalwere is able to knock Vanswaxle unconscious before the skilled shot of Raz's bow is able to
-kill him. With one jackelware gone and the other two dead, Ez-Ra uses his medical kit to stabilize
+kill him. With one jackalwere gone and the other two dead, Ez-Ra uses his medical kit to stabilize
 Vanswaxle, and the party is able to collect itself once more.
 
 To be continued next session.
