@@ -147,4 +147,5 @@ jackalwere is able to knock Vanswaxle unconscious before the skilled shot of Raz
 kill him. With one jackalwere gone and the other two dead, Ez-Ra uses his medical kit to stabilize
 Vanswaxle, and the party is able to collect itself once more.
 
-To be continued next session.
+Next time on Pdgn plays D&D:
+[Magical Cauldron vs. The World](http://blog.pdgn.co/general/2015/07/03/pdgn-plays-dnd-2.html)
