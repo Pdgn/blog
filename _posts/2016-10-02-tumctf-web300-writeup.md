@@ -44,6 +44,7 @@ we can leak data by manipulating this variable.
 We're looking at the results of this right now :)
 
 ## Taking a closer look
+
 ### The validate\_login function
 The `validate_login` function is called on every request, so if there's
 something interesting we can do with this script, part of it is probably in
@@ -55,6 +56,7 @@ attack, which can be exploited by tools such as
 
 
 ```php
+<?php
 // validate
 if(sha1($this->secret . '|' . $_COOKIE['u']) !== $_COOKIE['h']){
     return False;
@@ -67,12 +69,14 @@ this data is deserialized (see `read_cookie_string`), this essentially means we
 can set whatever data we want when the script assigns to `$u`:
 
 ```php
+<?php
 $u = $this->read_cookie_string($_COOKIE['u']);
 ```
 
 Well, what data might we want to set? Let's look at the next line:
 
 ```php
+<?php
 $qres = $this->msi->query('SELECT * FROM users WHERE name = '.$u['name']);
 ```
 
@@ -88,8 +92,7 @@ strings, one character at a time. Let's get the first character of the admin
 user's `innersalt` as an example:
 
 ```sql
-SELECT * FROM users WHERE name = if((SELECT innersalt FROM users where (name <>
-'admin') IS FALSE) LIKE BINARY '0%', 'admin', 'not_admin')
+SELECT * FROM users WHERE name = if((SELECT innersalt FROM users where (name <> 'admin') IS FALSE) LIKE BINARY '0%', 'admin', 'not_admin')
 ```
 
 We must use `<>` instead of `=` because of the way the application deserializes
@@ -111,6 +114,7 @@ that includes a null byte (`\x00`). It turns out that when PHP verifies or
 generates a bcrypt hash, it ignores everything after that null byte. That is:
 
 ```php
+<?php
 $data1 = "hello\x00world";
 $data2 = "hello\x00universe";
 var_dump(password_verify($data1, password_hash($data2, PASSWORD_DEFAULT))); // bool(true)
@@ -125,6 +129,7 @@ that explains this vulnerability much better than I can.
 For reference, here's the code for verifying a user's password:
 
 ```php
+<?php
 $outersalt = $u['outersalt'];
 $innersalt = $u['innersalt'];
 $password = hash('whirlpool', $innersalt.$password, True).$outersalt;
@@ -136,6 +141,7 @@ if(password_verify($password, $u['password'])){
 So, what we're interested in here is checking if:
 
 ```php
+<?php
 hash('whirlpool', $innersalt.$password, True)
 ```
 
@@ -149,8 +155,7 @@ was an admin login. Since it might include null bytes, however, I decided it
 would be best to try to leak this value hex-encoded, though:
 
 ```sql
-SELECT * FROM users WHERE name = if((select hex(password) from log where (name
-like 'admin') order by time limit 1) like '1%', 'admin', 'nope')
+SELECT * FROM users WHERE name = if((select hex(password) from log where (name like 'admin') order by time limit 1) like '1%', 'admin', 'nope')
 ```
 
 ...and so on. We eventually see that the first six characters of the hex-encoded
@@ -163,6 +168,7 @@ result of a Whirlpool hash, we simply need to brute-force a value `$password`
 such that:
 
 ```php
+<?php
 substr(hash('whirlpool', $innersalt . $password), 0, 6) == '138300';
 ```
 
@@ -194,6 +200,7 @@ hxp{if_y0u_d0_it_thr33_t1mes_itz_secure_again}
 ```
 
 ## Exploit script (to leak salt and pre-hash)
+
 ```py
 import codecs
 import hashpumpy
